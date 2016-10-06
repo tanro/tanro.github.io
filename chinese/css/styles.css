@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  padding-top: 70px;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+section {
+  padding-bottom: 60px; /* Height of the footer */
+}
+
+.pager {
+  margin-bottom: 50px;
+}
+
+.pager > li > a {
+  width: 100px;
+  padding: 10px 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
