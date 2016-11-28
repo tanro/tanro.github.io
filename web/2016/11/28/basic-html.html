@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="tanro, web, tanro web, web design, web development">
-    <meta name="description" content="It is time to write a website ...">
+    <meta name="description" content="HTML, the full name is ...">
     <meta name="author" content="Kai-Cheng Wang">
     <link rel="icon" href="">
-    <title>Start | tanro web</title>
+    <title>Basic HTML | tanro web</title>
     <link rel="stylesheet" href="../../../css/foundation.min.css">
     <link rel="stylesheet" href="../../../css/styles.css">
   </head>
@@ -31,23 +31,28 @@
       <div class="medium-8 columns">
         <article itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <header>
-            <h1 itemprop="headline"><a href="https://tanro.github.io/web/2016/10/12/start">Start</a></h1>
-            <p><time itemprop="datePublished" datetime="2016-10-12">October 12, 2016</time></p>
+            <h1 itemprop="headline"><a href="https://tanro.github.io/web/2016/11/28/basic-html">Basic HTML</a></h1>
+            <p><time itemprop="datePublished" datetime="2016-11-28">November 28, 2016</time></p>
           </header>
-          <p>It is time to write a website. First you have to get a text editor.</p>
-          <p>By default, text editors already are installed on your desktop or laptop. For example:</p>
+          <div class="flex-video">
+            <video src="Screencast_basic-html.mp4" controls></video>
+          </div>
+          <p>HTML, the full name is "Hyper Text Markup Language". By writing HTML, we can display contents on browsers. Let's start writing! Open a text editor first! I am used to using "Atom" or "gedit".</p>
+          <p>The basic HTML form is:</p>
+          <img src="basic-form.png" alt="basic form">
+          <br><br>
+          <p>"!DOCTYPE html" means that we tell the browsers the HTML version we are using. We use HTML5.</p>
+          <p>"html tags", we wrap contents between html tags. The "lang" attribute has a value named "en", it means "English". This html file is written in English.</p>
+          <p>"head tags", it includes the webpage's title, metadata, external CSS files or JavaScript files etc.</p>
+          <p>"body tags", it includes our main contents, like text, images, videos and other download files and so forth.</p>
+          <p>Note:</p>
           <ul>
-            <li>Windows: Notepad</li>
-            <li>Ubuntu: gedit</li>
+            <li>Use indentations (soft tab, 2 spaces)</li>
+            <li>We can type "!doctype html", "!DoCtype html", "BODy" tags etc. these html tags are case-insensitve.
           </ul>
-          <p>The text editors above are good, maybe you want to try to get other nice and interesting text editors.</p>
-          <ul>
-            <li><a href="https://www.sublimetext.com" target="_blank">Sublime Text</a> <span>(Windows, Linux, macOS)</span></li>
-            <li><a href="https://notepad-plus-plus.org" target="_blank">Notepad++</a> <span>(Windows)</span></li>
-            <li><a href="http://brackets.io" target="_blank">Brackets</a> <span>(Windows, Linux, macOS)</span></li>
-            <li><a href="https://atom.io" target="_blank">Atom</a> <span>(Windows, Linux, macOS)</span></li>
-          </ul>
-          <p>Which text editor is the best? My suggestion is: Choose the text editor you like. You can install some text editors, and try to use, then think what is comfortable for you to write, that is!</p>
+          <p>When finishing the HTML file, save it as "index.html" (the extension ".html" means this is the html file. "index" means the file name. We can name it what we want. Remember, the file name does not allow having spaces. we should name such as "underscore_name.html" or "hyphen-name.html".)</p>
+          <p>Finally the simple HTML file is complete. Then click the file, we will see the result on the browser.</p>
+          <img src="basic-webpage.png" alt="basic webpage">
           <section>
             <div id="disqus_thread"></div>
             <script>
