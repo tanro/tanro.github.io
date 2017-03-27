@@ -37,22 +37,32 @@
           <div class="flex-video">
             <video src="Screencast_basic-html.mp4" controls></video>
           </div>
-          <a class="button" href="https://tanro.github.io/web/2016/11/28/type">Download code</a>
           <p>HTML, the full name is "Hyper Text Markup Language". By writing HTML, we can display contents on browsers. Let's start writing! Open a text editor first! I am used to using "Atom" or "gedit".</p>
           <p>The basic HTML form is:</p>
           <img src="basic-form.png" alt="basic form">
           <br><br>
-          <p>"!DOCTYPE html" means that we tell the browsers the HTML version we are using. We use HTML5.</p>
-          <p>"html tags", we wrap contents between html tags. The "lang" attribute has a value named "en", it means "English". This html file is written in English.</p>
-          <p>"head tags", it includes the webpage's title, metadata, external CSS files or JavaScript files etc.</p>
-          <p>"body tags", it includes our main contents, like text, images, videos and other download files and so forth.</p>
+          <p><pre><code>&lt;!DOCTYPE html&gt;</code></pre>Tell the browsers the HTML version we are using. We use HTML5.</p>
+          <p><pre><code>&lt;html&gt;&lt;/html&gt;</code></pre>Wrap contents between html tags. The <code>lang</code> attribute has a value named <code>en</code>, it means "English". This html file is written in English.</p>
+          <p><pre><code>&lt;head&gt;&lt;/head&gt;</code></pre>It includes the webpage's title, metadata, external CSS files or JavaScript files etc.</p>
+          <p><pre><code>&lt;body&gt;&lt;/body&gt;</code></pre>It includes our main contents, like text, images, videos and other download files and so forth.</p>
           <p>Note:</p>
           <ul>
             <li>Use indentations (soft tab, 2 spaces)</li>
-            <li>We can type "!doctype html", "!DoCtype html", "BODy" tags etc. these html tags are case-insensitve.
+            <li>We can type <code>&lt;!doctype html&gt;</code>, <code>&lt;!DoCtype html&gt;</code>, <code>&lt;BODy&gt;</code> tags etc. these html tags are case-insensitve.
           </ul>
           <p>When finishing the HTML file, save it as "index.html" (the extension ".html" means this is the html file. "index" means the file name. We can name it what we want. We should name the file such as "underscore_name.html" or "hyphen-name.html".)</p>
           <p>Finally the simple HTML file is complete. Then click the file, we will see the result on the browser.</p>
+          <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
+          <pre><code>&lt;html lang="en"&gt;</code></pre>
+          <pre><code>  &lt;head&gt;</code></pre>
+          <pre><code>    &lt;meta charset="utf-8"&gt;</code></pre>
+          <pre><code>    &lt;title&gt;type title&lt;/title&gt;</code></pre>
+          <pre><code>  &lt;/head&gt;</code></pre>
+          <pre><code>  &lt;body&gt;</code></pre>
+          <pre><code>    &lt;p&gt;type text&lt;/p&gt;</code></pre>
+          <pre><code>  &lt;/body&gt;</code></pre>
+          <pre><code>&lt;/html&gt;</code></pre>
+          <br>
           <img src="basic-webpage.png" alt="basic webpage">
           <section>
             <div id="disqus_thread"></div>
