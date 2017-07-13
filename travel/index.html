@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- meta -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="tanro travel, tour, Chinese, Mandarin, Taipei, Taiwan">
+    <meta name="description" content="tanro travel offers great travel experience to you!">
+    <meta name="author" content="Kai">
+
+    <!-- icon -->
     <link rel="icon" href="">
-    <title></title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- title -->
+    <title>tanro travel</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=EB+Garamond">
   </head>
+
   <body>
-    
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/script.js"></script>
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2 w">
+          <h1>tanro travel</h1>
+        </div>
+      </div>
+
+      <!-- contact information -->
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2 w tooltip-demo">
+          <a data-toggle="tooltip" title="Email Me!" href="mailto:f2@live.fi"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- brief introduction -->
+    <div class="container">
+      <div class="row w centered">
+        <br>
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>I am Kai from Taiwan. Meeting a local guy in Taipei. You will know more about Taiwan and have a great tour experience. Contact me right now!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+      $('.tooltip-demo').tooltip({
+        selector: "[data-toggle=tooltip]",
+        container: "body"
+      });
+    </script>
+    <!--BACKSTRETCH-->
+    <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script>
+      $.backstretch("assets/img/bg.jpg", {speed: 500});
+    </script>
   </body>
 </html>
