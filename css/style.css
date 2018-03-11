@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  font-size: 1.6rem; /* 16px */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+}
+
+.container {
+  width: 970px;
+  margin: 30px auto 40px;
+}
+
+.main {
+  display: block;
+  width: 660px;
+  float: left;
+}
+
+.side-menu {
+  width: 275px;
+  float: right;
+}
+
+.footer {
+  width: 100%;
+}
