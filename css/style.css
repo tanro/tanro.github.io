@@ -24,13 +24,39 @@ a {
   text-decoration: none;
 }
 
+.clearfix::after {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+
+.header,
+.main,
+.side-menu,
+.footer {
+  border: 1px solid #aaa;
+  background-color: #ccc;
+}
+
+.header,
+.footer {
+  height: 100px;
+}
+
 .header {
   width: 100%;
+  padding: 28px 0 10px;
+  background: url(../img/bg-header.gif) repeat-x;
 }
 
 .container {
   width: 970px;
   margin: 30px auto 40px;
+}
+
+.main,
+.side-menu {
+  height: 500px;
 }
 
 .main {
