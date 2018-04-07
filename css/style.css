@@ -29,3 +29,38 @@ a {
   content: ' ';
   clear: both;
 }
+
+.container {
+  margin: 0 auto;
+}
+
+.main {
+  margin: 20px;
+  padding: 10px;
+}
+
+.my-name {
+  text-align: center;
+}
+
+.introduction {
+  font-size: 2rem;
+}
+
+.mail-section {
+  text-align: center;
+}
+
+.mail {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  padding: 11px;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: #000099;
+  border-radius: 10px;
+  background-color: #00cccc;
+}
